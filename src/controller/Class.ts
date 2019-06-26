@@ -1,6 +1,6 @@
 import Controller from '@ctsy/controller/dist/controller'
 /**
-  * 分类 NewsClass
+  * 分类 Class
   * CID CID 大数值自增(bigint)
   * 标题 Title 字符50(char(50))
   * 父ID PCID 大整数(bigint)
@@ -9,9 +9,9 @@ import Controller from '@ctsy/controller/dist/controller'
   * CTime CTime 时间戳(timestamp)
   * 状态 Status 状态值(tinyint(1))
 */
-export default class NewsClass extends Controller{
+export default class Class extends Controller{
   get _KeywordTable(){
-    return 'NewsClass'
+    return 'Class'
   }
  
   get _KeywordFields(){

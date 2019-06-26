@@ -1,6 +1,6 @@
 import { DbDataType } from "@ctsy/model";
 /**
-  * 文章内容 NewsContent
+  * 文章内容 Content
   * AID AID 大整数(bigint)
   * Content Content 备注(text)
 */

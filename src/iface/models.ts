@@ -1,18 +1,18 @@
 export enum Models{
     
         //文章
-        NewsArticle="NewsArticle",
+        Article="Article",
     
         //分类
-        NewsClass="NewsClass",
+        Class="Class",
     
         //文章内容
-        NewsContent="NewsContent",
+        Content="Content",
     
         //评论
-        NewsComment="NewsComment",
+        Comment="Comment",
     
         //附件
-        NewsAttach="NewsAttach",
+        Attach="Attach",
         
 }

@@ -1,6 +1,6 @@
 import { DbDataType } from "@ctsy/model";
 /**
-  * 附件 NewsAttach
+  * 附件 Attach
   * NAID NAID 大数值自增(bigint)
   * AID AID 大整数(bigint)
   * 附件名称 Title 字符50(char(50))

@@ -1,14 +1,15 @@
 import Relation, { R } from "@ctsy/relation";
 /**
-  * 评论 NewsComment
+  * 分类 Class
   * CID CID 大数值自增(bigint)
-  * 文章编号 AID 大整数(bigint)
+  * 标题 Title 字符50(char(50))
+  * 父ID PCID 大整数(bigint)
+  * 排序 Sort 序号(bigint)
   * CUID CUID 大整数(bigint)
   * CTime CTime 时间戳(timestamp)
-  * 内容 Memo 字符250(char(250))
   * 状态 Status 状态值(tinyint(1))
 */
-export default class NewsComment extends Relation{    
+export default class Class extends Relation{    
     constructor(ctx,table){
         super(ctx,table)
     }

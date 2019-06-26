@@ -1,6 +1,6 @@
 import Controller from '@ctsy/controller/dist/controller'
 /**
-  * 评论 NewsComment
+  * 评论 Comment
   * CID CID 大数值自增(bigint)
   * 文章编号 AID 大整数(bigint)
   * CUID CUID 大整数(bigint)
@@ -8,9 +8,9 @@ import Controller from '@ctsy/controller/dist/controller'
   * 内容 Memo 字符250(char(250))
   * 状态 Status 状态值(tinyint(1))
 */
-export default class NewsComment extends Controller{
+export default class Comment extends Controller{
   get _KeywordTable(){
-    return 'NewsComment'
+    return 'Comment'
   }
  
   get _KeywordFields(){

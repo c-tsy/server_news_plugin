@@ -1,6 +1,6 @@
 import { DbDataType } from "@ctsy/model";
 /**
-  * 文章 NewsArticle
+  * 文章 Article
   * AID AID 大数值自增(bigint)
   * CID CID 大整数(bigint)
   * 创建人 CUID 大整数(bigint)

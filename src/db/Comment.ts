@@ -1,12 +1,11 @@
 import { DbDataType } from "@ctsy/model";
 /**
-  * 分类 NewsClass
+  * 评论 Comment
   * CID CID 大数值自增(bigint)
-  * 标题 Title 字符50(char(50))
-  * 父ID PCID 大整数(bigint)
-  * 排序 Sort 序号(bigint)
+  * 文章编号 AID 大整数(bigint)
   * CUID CUID 大整数(bigint)
   * CTime CTime 时间戳(timestamp)
+  * 内容 Memo 字符250(char(250))
   * 状态 Status 状态值(tinyint(1))
 */
 export default {    
@@ -17,21 +16,7 @@ export default {
         defaultValue:0,
         allowNull:false
     },    
-    Title:{
-        type:DbDataType.char(50),
-        primaryKey:false,
-        autoIncrement:false,
-        defaultValue:"",
-        allowNull:false
-    },    
-    PCID:{
-        type:DbDataType.bigint,
-        primaryKey:false,
-        autoIncrement:false,
-        defaultValue:0,
-        allowNull:false
-    },    
-    Sort:{
+    AID:{
         type:DbDataType.bigint,
         primaryKey:false,
         autoIncrement:false,
@@ -50,6 +35,13 @@ export default {
         primaryKey:false,
         autoIncrement:false,
         defaultValue:new Date,
+        allowNull:false
+    },    
+    Memo:{
+        type:DbDataType.char(250),
+        primaryKey:false,
+        autoIncrement:false,
+        defaultValue:"",
         allowNull:false
     },    
     Status:{

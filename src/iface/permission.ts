@@ -1,63 +1,63 @@
 export enum Permissions{
     
             //文章
-            ListNewsArticle="查看文章列表",
+            ListArticle="查看文章列表",
         
             //文章
-            AddNewsArticle="添加文章数据",
+            AddArticle="添加文章数据",
         
             //文章
-            DelNewsArticle="删除文章数据",
+            DelArticle="删除文章数据",
         
             //文章
-            SaveNewsArticle="修改文章数据",
+            SaveArticle="修改文章数据",
         
             //分类
-            ListNewsClass="查看分类列表",
+            ListClass="查看分类列表",
         
             //分类
-            AddNewsClass="添加分类数据",
+            AddClass="添加分类数据",
         
             //分类
-            DelNewsClass="删除分类数据",
+            DelClass="删除分类数据",
         
             //分类
-            SaveNewsClass="修改分类数据",
+            SaveClass="修改分类数据",
         
             //文章内容
-            ListNewsContent="查看文章内容列表",
+            ListContent="查看文章内容列表",
         
             //文章内容
-            AddNewsContent="添加文章内容数据",
+            AddContent="添加文章内容数据",
         
             //文章内容
-            DelNewsContent="删除文章内容数据",
+            DelContent="删除文章内容数据",
         
             //文章内容
-            SaveNewsContent="修改文章内容数据",
+            SaveContent="修改文章内容数据",
         
             //评论
-            ListNewsComment="查看评论列表",
+            ListComment="查看评论列表",
         
             //评论
-            AddNewsComment="添加评论数据",
+            AddComment="添加评论数据",
         
             //评论
-            DelNewsComment="删除评论数据",
+            DelComment="删除评论数据",
         
             //评论
-            SaveNewsComment="修改评论数据",
+            SaveComment="修改评论数据",
         
             //附件
-            ListNewsAttach="查看附件列表",
+            ListAttach="查看附件列表",
         
             //附件
-            AddNewsAttach="添加附件数据",
+            AddAttach="添加附件数据",
         
             //附件
-            DelNewsAttach="删除附件数据",
+            DelAttach="删除附件数据",
         
             //附件
-            SaveNewsAttach="修改附件数据",
+            SaveAttach="修改附件数据",
             
 }
